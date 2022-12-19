@@ -1,0 +1,271 @@
+/*Стиль базовых html5 блоков*/
+body {
+	color: #302e2e;
+	font: 12px Tahoma, sans-serif;
+	background: url(../images/hotel.png); /*фон сайта*/
+	background-size:cover;
+	border-top: 5px solid #611907;
+	margin: 0;
+}
+
+input[type="text"], input[type="search"], input[type="email"] {
+	background: rgba(255, 255, 255, 0.7);
+	border: 1px solid #000000;
+	height: 30px;
+	color: #000000;
+	padding: 0 300px;
+	vertical-align: left;
+	border-radius: 10px 0 0 10px;
+}
+select {
+	background-color: #f3f3f3;
+	border: 1px solid #e7e7e7;
+	height: 30px;
+	color: #303030;
+	padding: 0 10px;
+	vertical-align: top;
+}
+textarea {
+	background-color: #f3f3f3;
+	border: 1px solid #e7e7e7;
+	height: 100px;
+	color: #303030;
+	padding: 0 10px;
+	vertical-align: top;
+}
+input[type="submit"], button {
+	color: rgb(255, 253, 253);
+	background-color: #611907;
+	border: none;
+	height: 30px;
+	font-family: 'Oswald', sans-serif;
+}
+p {
+	margin: 20px 0;
+}
+
+.wrapper {
+	max-width: 960px;
+	margin: auto;
+}
+
+header {
+	padding: 20px 0;
+	height:100px;
+}
+
+main {
+	background:rgba(236, 186, 186, 0.4);
+	border-radius: 10px 10px 0px 0px;
+	width:1070px;
+}
+main form {
+	background-color:#ffffff;
+	padding: 10px 10px;
+	width:793px;
+	height: 500;
+}
+
+fieldset {
+    width:672px;
+	height: 425px;
+}
+aside {
+	float: left;
+	width: 175px;
+}
+
+/* стиль основного текста (контента) */
+
+section {
+	margin-left: 215px;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
+section > h2 {
+	color: #000000;
+	font-size: 20px;
+}
+
+section > p {
+	color: #202020;
+	font-size: 15px;
+}
+
+footer {
+	background: #611907;
+	color: #000000;
+	font-size: 11px;
+}
+
+.footer {
+	max-width: 960px;
+	margin: auto;
+	padding: 10px 0;
+	height: 90px;
+}
+
+/*Стиль полей ввода*/
+.sinput {
+	position:relative;
+	top: 25px; /* Расстояние от верхнего края */
+    left: 100px; /* Расстояние от левого края */
+    bottom: 50px;
+	right: 100px;
+}
+
+/*Стиль навигационных ссылок меню*/
+nav a {
+	text-decoration: none;
+}
+
+nav ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+nav li {
+	list-style-position: inside;
+	font: 14px 'Oswald', sans-serif;
+	padding: 10px;
+}
+
+h1 {
+	display: inline-block;
+	color: #000000;
+	font: 40px/40px 'Oswald', sans-serif;
+	margin: 0;
+	padding: 0 10px;
+}
+
+/*заголовОк страницы*/
+.heading {
+	background: #611907;
+    opacity: 0.8;
+	margin: 20px 0;
+	padding-left: 20px;
+}
+
+.heading > h1 {
+	background: #611907;
+}
+
+/*Стиль меню сверху(основная навигация)*/
+.top-menu {
+	text-align: right;
+}
+.top-menu li {
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 15;
+	background:rgba(0,0,0,0.4);
+}
+
+.top-menu li.active {
+	background: #611907;
+	color: #fff;
+}
+
+.top-menu a {
+	color: #ffffff;
+}
+
+/*Стиль подменю*/
+.aside-menu li {
+	font-weight: 230;
+	list-style-type: square;
+	border-top: 1px solid #2e2b2b;
+	width:151px;
+}
+
+.aside-menu li:first-child {
+	border: none;
+	border-radius: 10px;
+}
+
+.aside-menu li.active {
+	color: #611907;
+}
+
+.aside-menu a {
+	color: #000000;
+	border-radius: 10px;
+}
+
+aside > h2 {
+	background: #611907;
+	border: 1px solid #000000;
+	font: 14px 'Oswald', sans-serif;
+	color: #fff;
+	padding: 11px;
+	margin: 0px 0 0 0;
+	border-radius: 10px 10px 0 0;
+	width:150px;
+}
+
+aside > p {
+	background: #f3f3f3;
+	border: 1px solid #e7e7e7;
+	padding: 10px;
+	margin: 0;
+}
+
+figure {
+	display: inline-block;
+	margin: 0;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+}
+
+figure img {
+	display: block;
+	border: 1px solid #611907;
+	outline: 1px solid #611907;
+	width: 315px;
+	height: 180px;
+	margin: 10px;
+}
+
+figure figcaption {
+	font-size: 16px;
+	font-weight: 300;
+	margin-top: 5px;
+}
+
+figure figcaption span {
+	display: block;
+	font-size: 14px;
+	color: #29c5e6;
+}
+
+#footer-logo {
+	float: right;
+	margin-top: 20px;
+	font-size: 10px;
+	text-align: right;
+}
+
+#social {
+	float: left;
+	margin-left: 20px;
+	width: 130px;
+}
+
+.social-icon {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+.vk {
+	background: url(../images/vk.png);
+	background-position: 0 0;
+}
+
+.google {
+	background: url(../images/google.png);
+	background-position: -30px 0;
+}
+
